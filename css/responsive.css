@@ -1,0 +1,657 @@
+/*
+Template:holivilla
+FileName:responsive.css
+Author Name: Themevault
+Author URI:http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+@media (min-width: 1199px) and (max-width: 1240px) {
+
+}
+@media (max-width: 1199px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .tv-footer-banner {
+        height: 464px;
+    }
+    .tv-instagallery-content {
+        max-height: 226px;
+        min-height: 0;
+    }
+    .main-menu > li > a {
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        padding: 10px;
+    }
+    .tv-banner-title {
+        text-align: center !important;
+    }
+    .hover-effect-text > p {
+        font-size: 12px;
+    }
+    .tv-inner-title {
+        margin: 6px 0;
+    }
+    .tv-room-block li {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .tv-services-content > h4 {
+        margin-left: 25px;
+    }
+    .tv-services-content > p {
+        font-size: 10px;
+    }
+    .tv-services-content {
+        margin-top: 10px;
+    }
+    .tv-season-content > p {
+        font-size: 40px;
+    }
+    #contact .tv-contact-button {
+        margin-top: 20px;
+    }    
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-nav {
+        float: none;
+        margin: 0;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align: center;
+    }
+    .nav > li {
+        display: inline-block;
+    }
+    .tv-banner-title {
+        text-align: center;
+    }
+    .block-margin
+    {
+        margin-left:0;
+    }
+    .tv-slider-content {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tv-section-title {
+        margin-top: 20px;
+    }
+    .tv-services-content > h4 {
+        margin-right: 35px;
+    }
+
+    .tv-tabs-content {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .tv-tabs-price-content {
+        width: 100%;
+    }
+    .tv-season-content > p {
+        font-size: 35px;
+        margin-top:25%;
+    }
+    .tv-latest-content > h4 {
+        font-size: 12px;
+    }
+    .tv-latest-content > span {
+        font-size: 14px;
+    }
+    #panorama {
+        height: 496px;
+    }
+    .tv-footer-banner {
+        height: auto;
+    }
+    .social-navbar > a > span {
+        margin: 0 8px;
+    }
+    .navbar-right {
+        float: none !important;
+        margin-right: 0;
+    }
+    .logo {
+        width: 100%;
+    }
+    #contact .tv-contact-button {
+        margin-top: 20px;
+    }
+    .btn.p-button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .tv-welcome-image > .overlay{
+        width: 96%;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .dropdown-content {
+        top:40px !important;
+        left:205px !important;
+    }
+    .navbar-brand {
+        padding: 8px;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+        /* color:#000000; */
+        /* color: #ff9800; */
+        color: #fdd800;
+    }
+    .navbar-collapse .navbar-nav > li > a:focus, .navbar-collapse .navbar-nav > li > a:hover
+    {
+        /* color:#000000; */
+        color: #fdd800;
+    }
+    .navbar-nav
+    {
+        /* background: #ff9800 none repeat scroll 0 0; */
+        /* background: #18285c none repeat scroll 0 0; */
+    }
+    /* .tv-footer-padding {
+        padding: 5px 0;
+    } */
+    .tv-banner-title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .tv-center-banner-title {
+        font-size: 30px;
+    }
+    .tv-banner-sub-title {
+        font-size: 13px;
+    }
+    .btn.v-button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .block-margin {
+        margin-left: 0px;
+        margin-top: 7.5%;
+    }
+    .tv-slider-content {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .tv-section-title > h2 {
+        margin: 28px 0 0;
+    }
+    .tv-services-content > h4 {
+        margin-left: -18px;
+    }
+    .navbar-right {
+        float: none !important;
+        margin-left: 20px;
+    }
+    .tv-innersection-padding {
+        padding: 0;
+    }
+    .tv-section-indicators.text-center {
+        margin-top: 20px;
+    }
+    .tv-services-content > p {
+        font-size: 15px;
+    }
+    .tv-services-content > h4 {
+        margin-left: -47px;
+    }
+    .hover-effect-text {
+        width: 100%;
+    }
+    .tv-season-banner {
+        padding: 80px 0;
+    }
+    .tv-services-content > p {
+        display: block;
+        left: 35%;
+    }
+    .load-button {
+        margin-bottom: 20px;
+    }
+    .tv-tabs-content {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .tv-tabs-price-content {
+        width: 100%;
+    }
+    .tv-inner-title {
+        /*text-align: center;*/
+    }
+    .tv-room-block {
+        /*text-align: center;*/
+    }
+    .tv-season-content > p {
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .img-320
+    {
+        display: inline-block;
+    }
+    .tv-latest-content {
+        text-align: center;
+    }
+    .tv-latest-images {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .tv-footer-banner {
+        height: auto;
+        width: 100%;
+    }
+    .tv-info-title {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .tv-contact-content {
+        text-align: center;
+    }
+    .social-navbar {
+        text-align: center;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+        border-color:#ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .main-menu > li > a {
+        padding: 8px 10px;
+    }
+    #contact .tv-contact-button {
+        margin-top: 20px;
+    }
+    .carousel-inner > .item > img{
+        height: auto;
+    }
+    .carousel-caption > h1{
+        font-size: 20px;
+    }
+    .tv-welcome-img-effect{
+        height: 293px;
+    }
+    .tv-welcome-image > .overlay{
+        height: 293px;
+        width: 96%;
+    }
+}
+
+@media (min-width: 400px) and (max-width:499px) {
+    .tv-services-content > img {
+        left: 0%;
+        padding: 10px;
+        position: static;
+        text-align: center;
+    }
+    .tv-services-content > h4 {
+        font-size: 15px;
+    }
+    .tv-services-content > p {
+        left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .navbar-brand {
+        font-size: 18px;
+        line-height:20px;
+    }
+    .num {
+        margin-top:20px;
+    }
+    .tv-banner-title {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .tv-center-banner-title {
+        font-size: 20px;
+    }
+    .tv-banner-sub-title {
+        font-size: 13px;
+    }
+    .btn.v-button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .block-margin {
+        margin-left: 0px;
+        margin-top: 7.5%;
+    }
+    .tv-section-title > h2 {
+        font-size: 30px;
+        margin-top: 30px !important;
+    }
+    .tv-slider-content {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .tv-section-title > h2 {
+        margin: 0;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-toggle
+    {
+        margin-right:-10px;
+        /* margin-top:-10px; */
+    }
+    .tv-tabs-content {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .tv-tabs-price-content {
+        width: 100%;
+    }
+    .tv-inner-title {
+        /*text-align: center;*/
+    }
+    .tv-room-block {
+        /*text-align: center;*/
+    }
+    .tv-season-content > p {
+        font-size: 15px;
+    }
+    .tv-season-banner {
+        padding: 70px 0;
+    }
+    /* .tv-footer-padding {
+        padding: 10px 0;
+    } */
+    .margin-r {
+        margin-left: 22px;
+    }
+    .navbar-right {
+        float: none;
+        margin-right: 0;
+    }
+    .img-320
+    {
+        display: inline-block;
+    }
+    .tv-latest-content {
+        text-align: center;
+    }
+    .tv-latest-images {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .tv-instagallery-content > p {
+        width: 100%;
+    }
+    .tv-footer-banner {
+        height: auto;
+        width: 100%;
+    }
+    .tv-info-title {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .tv-contact-content {
+        text-align: center;
+    }
+    .social-navbar {
+        text-align: center;
+    }
+    .tv-all-img {
+        margin-top: 20px;
+    }
+    .dropdown-content {
+        top:40px !important;
+        left:125px !important;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+        /* color:#000000; */
+        color: #fdd800;
+    }
+    .navbar-collapse .navbar-nav > li > a:focus, .navbar-collapse .navbar-nav > li > a:hover
+    {
+        /* color:#000000; */
+        color: #fdd800
+    }
+    .navbar-nav
+    {
+        /* background: #ff9800 none repeat scroll 0 0; */
+    }
+    #contact .tv-contact-button {
+        margin-top: 20px;
+    }
+    .tv-services-content > h4 {
+        margin-left: 12px;
+    }
+    .carousel-inner > .item > img{
+        height: auto;
+    }
+    .carousel-caption > h1{
+        font-size: 14px;
+    }
+    .tv-welcome-img-effect{
+        height: 250px;
+    }
+    .tv-welcome-image > .overlay{
+        height: 250px;
+        width: 94%;
+    }
+}
+@media (min-width: 300px) and (max-width:399px) {
+    /* .tv-footer-padding {
+        padding: 10px 0;
+    } */
+    .tv-services-content > img {
+        left: 0%;
+        padding: 10px;
+        position: static;
+        text-align: center;
+    }
+    .tv-services-content > h4 {
+        margin-left: 12px;
+    }
+    .tv-services-content > h4 {
+        font-size: 15px;
+    }
+    .tv-banner-content {
+        width: 100%;
+    }
+    .tv-services-content > p {
+        left: 0;
+        margin-top: 20px;
+        text-align: center;
+        width:100%;
+    }
+    .navbar-brand {
+        font-size: 18px;
+        line-height:20px;
+    }
+    .num {
+        margin-top:20px;
+    }
+    .tv-banner-title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .tv-center-banner-title {
+        font-size: 30px;
+    }
+    .tv-banner-sub-title {
+        font-size:20px;
+    }
+    .btn.v-button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .block-margin {
+        margin-left: 0px;
+        margin-top: 7.5%;
+    }
+    .tv-section-title > h2 {
+        font-size: 30px;
+        margin-top: 30px !important;
+    }
+    .tv-slider-content {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .tv-section-title > h2 {
+        margin: 0;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-toggle
+    {
+        margin-right:-10px;
+        margin-top:10px;
+    }
+    .tv-tabs-content {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .tv-tabs-price-content {
+        width: 100%;
+    }
+    .tv-inner-title {
+        /*text-align: center;*/
+    }
+    .tv-room-block {
+        /*text-align: center;*/
+    }
+    .tv-season-banner {
+        padding: 80px 0;
+    }
+    .tv-season-content > p {
+        font-size: 15px;
+    }
+    .margin-r {
+        margin-left: 22px;
+    }
+    .navbar-right {
+        float: none;
+        margin-right: 0;
+    }
+    .img-320
+    {
+        display: inline-block;
+    }
+    .tv-latest-content {
+        text-align: center;
+    }
+    .tv-latest-images {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .tv-instagallery-content > p {
+        width: 100%;
+    }
+    .tv-footer-banner {
+        height: auto;
+        width: 100%;
+    }
+    .tv-info-title {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .tv-contact-content {
+        text-align: center;
+    }
+    .social-navbar {
+        text-align: center;
+    }
+    .tv-all-img {
+        margin-top: 20px;
+    }
+    .dropdown-content {
+        top:40px !important;
+        left:40px !important;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+        /* color:#000000; */
+        color: #fdd800;
+    }
+    .navbar-collapse .navbar-nav > li > a:focus, .navbar-collapse .navbar-nav > li > a:hover
+    {
+        /* color:#000000; */
+        color: #fdd800;
+    }
+    .navbar-nav
+    {
+        /* background: #ff9800 none repeat scroll 0 0; */
+    }
+    #contact .tv-contact-button {
+        margin-top: 20px;
+    }
+    .carousel-inner > .item > img{
+        height: auto;
+    }
+    .carousel-caption > h1{
+        font-size: 14px;
+    }
+}
+@media (max-width:400px){
+    .tv-welcome-img-effect{
+        height: 250px;
+    }
+    .tv-welcome-image > .overlay{
+        height: 250px;
+        width: 92%;
+    }
+}
+@media (max-width:300px) {
+    .carousel-inner > .item > img{
+        height: auto;
+    }
+    .carousel-caption > h1{
+        font-size: 14px;
+    }
+    .tv-welcome-img-effect{
+        height: 250px;
+    }
+    .tv-welcome-image > .overlay{
+        height: 250px;
+        width: 88%;
+    }
+}
