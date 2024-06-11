@@ -950,7 +950,7 @@ a:focus {
   margin-bottom: 1.1rem;
   position: relative;
   /* To absolutly position the icons.*/
-  margin-left: 1.5rem;
+  /* margin-left: 1.5rem; */
   color: #fff;
   text-align: left;
     padding-left: 10px;
