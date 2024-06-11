@@ -37,6 +37,7 @@ $(window).load(function () {
         }
         }
     });
+    
 });
 
 $(document).ready(function () {
@@ -51,5 +52,33 @@ $(document).ready(function () {
         $("html, body").animate({scrollTop: 0}, 600);
         return false;
     });
-
+    setTimeout(playYoututbeVideo, 1000);
 });
+
+function autoPlayYouTubeModal() {
+    var document = window.document.getElementsByTagName('body');
+    if(document && document.length > 0){
+        var modal = window.document.getElementById('myModal');
+        modal.style.width= document[0].clientWidth;
+    }
+}
+function playYoututbeVideo(){
+    // $('.video-section__icon').magnificPopup({
+    //     disableOn: 700,
+    //     type: 'iframe',
+    //     mainClass: 'mfp-fade',
+    //     removalDelay: 160,
+    //     preloader: false,
+
+    //     fixedContentPos: false
+    // });
+    // $('#popup-youtube').magnificPopup({
+    //     disableOn: 700,
+    //     type: 'iframe',
+    //     mainClass: 'mfp-fade',
+    //     removalDelay: 160,
+    //     preloader: false,
+
+    //     fixedContentPos: false
+    // });
+}

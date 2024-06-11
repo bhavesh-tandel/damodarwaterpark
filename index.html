@@ -1,18 +1,17 @@
 <!--
-Template:Holivilla
+Template:Damodar Water Park
 FileName:index.html
-Author Name: Themevault
-Author URI:http://www.themevault.net/
-License URI: http://www.themevault.net/license/
+Author Name: Bhavesh Tandel
+Author Email: tandelbhavesh07@gmail.com
 -->
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Holivilla</title>
+    <title>Damodar Water Park</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/favicon.png" />
+    <link rel="icon" href="images/waterpark/favicon_io/favicon-32x32.png" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet">
@@ -44,7 +43,7 @@ License URI: http://www.themevault.net/license/
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="navbar-header text-center">
                             <a class="navbar-brand setimage" href="index.html">
-                                <!-- <p class="tv-main-title" >Holivilla</p> -->
+                                <!-- <p class="tv-main-title" >Damodar Water Park</p> -->
                                 <img src="images/waterpark/logo_name_banner.png" class="">
                             </a>
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tv-navbar">
@@ -206,10 +205,9 @@ License URI: http://www.themevault.net/license/
                 <div class="tv-welcome-content">
                     <div class="col-md-6 col-sm-12">
                         <div class="tv-welcome-image">
-                            <img src="images/waterpark/caption.jpeg"
-                                class="tv-welcome-img-effect tv-all-img img-responsive">
+                            <img src="images/waterpark/caption.jpeg" class="tv-welcome-img-effect tv-all-img img-responsive">
                             <div class="overlay"></div>
-                            <button class="video-section__icon" data-toggle="modal" data-target="#myModal"><img
+                            <button class="popup-youtube video-section__icon" href="https://www.youtube.com/watch?v=HVO6crzgBx8"><img
                                     src="images/play-button.png" alt="">
                             </button>
                         </div>
@@ -978,7 +976,8 @@ License URI: http://www.themevault.net/license/
                     </div>
                     <div class="padding-0 col-md-6 col-sm-12">
                         <div class="tv-instagallery-image">
-                            <a data-image-popup="" href="images/Image30.jpeg">
+                            <!-- data-image-popup="" -->
+                            <a  href="images/Image30.jpeg">
                                 <img src="images/Image30.jpeg" class="img-responsive tv-insta-height">
                                 <div class="overlay">
                                     <div class="text"><img src="images/icon(1).png"></div>
@@ -988,7 +987,8 @@ License URI: http://www.themevault.net/license/
                     </div>
                     <div class="padding-0 col-md-6 col-sm-12">
                         <div class="tv-instagallery-image">
-                            <a data-image-popup="" href="images/Image29.png">
+                            <!-- data-image-popup="" -->
+                            <a  href="images/Image29.png">
                                 <img src="images/Image29.png" class="img-responsive tv-insta-height">
                                 <div class="overlay">
                                     <div class="text"><img src="images/icon(1).png"></div>
@@ -999,7 +999,7 @@ License URI: http://www.themevault.net/license/
                 </div>
                 <div class="padding-0 col-md-6 col-sm-12">
                     <div class="tv-instagallery-image">
-                        <a data-image-popup="" href="images/Image 21.png">
+                        <a href="images/Image 21.png">
                             <img src="images/Image 21.png" class="img-responsive">
                             <div class="overlay">
                                 <div class="text"><img src="images/icon(1).png"></div>
@@ -1147,6 +1147,15 @@ License URI: http://www.themevault.net/license/
                 gallery: {
                     enabled: true
                 }
+            });
+            var $youtubePopup = $('.popup-youtube, .popup-vimeo, .popup-gmaps');
+            $youtubePopup.magnificPopup({
+                // disableOn: 200,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: true,
+                fixedContentPos: false
             });
         });
     </script>
