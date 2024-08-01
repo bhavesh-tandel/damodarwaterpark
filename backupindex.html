@@ -15,7 +15,6 @@ Author Email: tandelbhavesh07@gmail.com
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -29,10 +28,9 @@ Author Email: tandelbhavesh07@gmail.com
     <script type="text/javascript" src="js/pannellum.js"></script>
     <script type="text/javascript" src="js/libpannellum.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <!-- <link rel="stylesheet" href="https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -92,8 +90,23 @@ Author Email: tandelbhavesh07@gmail.com
     </section>
     <!--Navigation Bar Section-->
 
-    <section hidden=true>
+
+    <!-- Banner Section -->
+    <!-- <div class="tv-image-overlay" id="banner" style="background: rgba(0, 0, 0, 0) url('images/waterpark/banner.jpeg') no-repeat scroll center top / cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="tv-banner-content">
+                        <h2 class="tv-banner-title">A Damodar</h2>
+                        <h2 class="tv-center-banner-title">Water Park</h2>
+                        <h5 class="tv-banner-sub-title">Plaghar's 1<sup>st</sup> wave pool water park</h5>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+    <section>
         <div id="myCarousel1" class="carousel slide">
+            <!-- data-ride="carousel"  -->
+            <!-- Indicators -->
 
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
@@ -102,19 +115,19 @@ Author Email: tandelbhavesh07@gmail.com
             </ol>
             <div class="carousel-inner">
                 <div class="item active"> <img src="images/waterpark/wavepool.jpeg" alt="First slide">
-                    <!-- <div class="carousel-caption">
+                    <div class="carousel-caption">
                         <h1>Plaghar's 1<sup>st</sup> Wave Pool <br>Water Park</h1>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="item"> <img src="images/waterpark/banner.jpeg" alt="Second slide">
-                    <!-- <div class="carousel-caption">
+                    <div class="carousel-caption">
                         <h1>Plaghar's 1<sup>st</sup> Wave Pool <br>Water Park</h1>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="item"> <img src="images/waterpark/banner.jpeg" alt="Third slide">
-                    <!-- <div class="carousel-caption">
+                    <div class="carousel-caption">
                         <h1>Plaghar's 1<sup>st</sup> Wave Pool <br>Water Park</h1>
-                    </div> -->
+                    </div>
                 </div>
 
             </div>
@@ -131,30 +144,6 @@ Author Email: tandelbhavesh07@gmail.com
 
         </div>
         <div class="clearfix"></div>
-    </section>
-    <section>
-        <div class="video_header">
-
-            <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-            <div class="overlay"></div>
-
-            <!-- The HTML5 video element that will create the background video on the header -->
-            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="./videos/damodarwaterpark.mp4"
-                    type="video/mp4">
-            </video>
-
-            <!-- The header content -->
-            <!-- <div class="container h-100">
-                <div class="vide-hader-title d-flex h-100 text-center align-items-center">
-                    <div class="w-100 text-white">
-                        <h1 class="display-3">Video Header</h1>
-                        <p class="lead mb-0">Using HTML5 Video and Bootstrap</p>
-                    </div>
-                </div>
-            </div> -->
-
-        </div>
     </section>
     <!-- End Banner Section -->
 
@@ -216,23 +205,20 @@ Author Email: tandelbhavesh07@gmail.com
                 <div class="tv-welcome-content">
                     <div class="col-md-6 col-sm-12">
                         <div class="tv-welcome-image">
-                            <img src="images/waterpark/caption.jpeg"
-                                class="tv-welcome-img-effect tv-all-img img-responsive">
+                            <img src="images/waterpark/caption.jpeg" class="tv-welcome-img-effect tv-all-img img-responsive">
                             <div class="overlay"></div>
-                            <button class="video-section__icon" data-toggle="modal" data-target="#myModal"><img
+                            <button class="popup-youtube video-section__icon" href="https://www.youtube.com/watch?v=HVO6crzgBx8"><img
                                     src="images/play-button.png" alt="">
                             </button>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 block-margin">
                         <div class="tv-welcome-desc text-center">
-                            <h2>Welcome to Damodar Water Park</h2>
+                            <h2>welcome to Damodar Waterpark</h2>
                             <img src="images/Icon3.png">
-                            <p>Situated along the Coastline of Danda-Kelve Creek (Danda Khadi) and a walkable distance
-                                from Kelve Beach on the outskirts of Kelve Fishermen Village is our water park that
-                                features water play areas, such as colorful water slides, wave pool, swimming pool, and
-                                barefooting environment with delicious food and foot-tapping music.</p>
-                            <p>Damodar Water Park offers you 1 Big Wave Pool, 2 Swimming Pools, 4 Thrilling
+                            <p>A Damodar Water Park is Palghar's 1<sup>st</sup> wave pool water park. Damodar Waterpark
+                                is an ideal place within the Kelwa for great holiday to spend with your family and
+                                friends. Damodar Waterpark offers you 1 Big Wave Pool, 2 Big Swimming Pools, 4 Thrilling
                                 Water Slides, Eye Catching Environment, Tasty Food, Luxury Rooms, Locker Rooms, Own
                                 Parking Facility.</p>
                             <div class="readmore-button" hidden>
@@ -325,11 +311,9 @@ Author Email: tandelbhavesh07@gmail.com
                         your body and soul. At just 8 km away from Kelwa Road railway station Damodar Waterpark situated
                         at Kelwa, Palghar.</p>
                     <p>Damodar Waterpark is an ideal place within the Kelwa for great holiday to spend with your family
-                        and friends. The sound of laughter and splashing water in our park creates an energetic
-                        atmosphere. Our amusement park offers a fantastic experience for all ages. Children have all the
-                        fun as if there are no tomorrows, whereas grown-ups re-create their childhood memories and
-                        desires by enjoying with laughter and fun at our water park. <b>We create happy memories, one
-                            slide at a time.</b></p>
+                        and friends. Damodar Waterpark offers you 1 Big Wave Pool, 2 Big Swimming Pools, 4 Thrilling
+                        Water Slides, Eye Catching Environment, Tasty Food, Luxury Rooms, Locker Rooms, Own Parking
+                        Facility.</p>
                 </div>
                 <div class="tv-col-padding col-md-3 col-sm-6">
                     <div class="tv-price-content"
@@ -474,8 +458,8 @@ Author Email: tandelbhavesh07@gmail.com
                 </div>
                 <div class="tv-col-padding col-md-3 col-sm-3">
                     <div class="tv-gallery-content">
-                        <a data-image-popup="" href="images/waterpark/wavepool.jpeg">
-                            <img src="images/waterpark/wavepool.jpeg" class="tv-all-img img-responsive tv-popup-img">
+                        <a data-image-popup="" href="images/waterpark/g8.jpeg">
+                            <img src="images/waterpark/g8.jpeg" class="tv-all-img img-responsive tv-popup-img">
                             <div class="overlay">
                                 <div class="text">
                                     <img src="images/add1.png">
@@ -496,67 +480,6 @@ Author Email: tandelbhavesh07@gmail.com
                         </a>
                     </div>
                 </div>
-                <div class="tv-col-padding col-md-3 col-sm-3" hidden=true>
-                    <div class="tv-gallery-content">
-                        <a data-image-popup="" href="images/waterpark/g8.jpeg">
-                            <img src="images/waterpark/g8.jpeg" class="tv-all-img img-responsive tv-popup-img">
-                            <div class="overlay">
-                                <div class="text">
-                                    <img src="images/add1.png">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="tv-col-padding col-md-3 col-sm-3" hidden=true>
-                    <div class="tv-gallery-content">
-                        <a data-image-popup="" href="images/waterpark/g9.jpeg">
-                            <img src="images/waterpark/g9.jpeg" class="tv-all-img img-responsive tv-popup-img">
-                            <div class="overlay">
-                                <div class="text">
-                                    <img src="images/add1.png">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="tv-col-padding col-md-3 col-sm-3" hidden=true>
-                    <div class="tv-gallery-content">
-                        <a data-image-popup="" href="images/waterpark/g10.jpeg">
-                            <img src="images/waterpark/g10.jpeg" class="tv-all-img img-responsive tv-popup-img">
-                            <div class="overlay">
-                                <div class="text">
-                                    <img src="images/add1.png">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="tv-col-padding col-md-3 col-sm-3" hidden=true>
-                    <div class="tv-gallery-content">
-                        <a data-image-popup="" href="images/waterpark/g11.jpeg">
-                            <img src="images/waterpark/g11.jpeg" class="tv-all-img img-responsive tv-popup-img">
-                            <div class="overlay">
-                                <div class="text">
-                                    <img src="images/add1.png">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="tv-col-padding col-md-3 col-sm-3" hidden=true>
-                    <div class="tv-gallery-content">
-                        <a data-image-popup="" href="images/waterpark/g12.jpeg">
-                            <img src="images/waterpark/g12.jpeg" class="tv-all-img img-responsive tv-popup-img">
-                            <div class="overlay">
-                                <div class="text">
-                                    <img src="images/add1.png">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
                 <div class="col-md-12 col-sm-12" hidden>
                     <div class="tv-load-button text-center">
                         <div class="load-button">
@@ -588,48 +511,17 @@ Author Email: tandelbhavesh07@gmail.com
                                     Breakfast
                                 </li>
                                 <li class="list-group-item">
+                                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                                    Morning Tea
+                                </li>
+                                <li class="list-group-item">
                                     <i class="fa fa-cutlery" aria-hidden="true"></i>
                                     Lunch(veg/non veg)
                                 </li>
-                                <li class="list-group-item">
-                                    <i class="fa fa-coffee" aria-hidden="true"></i>
-                                    Evening Tea
-                                </li>
                             </ul>
-                            <!-- <hr> -->
-                            <p class="package-currency">
-                            <table class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Weekdays</th>
-                                        <th scope="col">Friday/Weekend</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><b><span class="package-currency-rupees">&#8377</span> 799</b>/per audlt
-                                        </td>
-                                        <td><b><span class="package-currency-rupees">&#8377</span> 899</b>/per audlt
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><b><span class="package-currency-rupees">&#8377</span> 500</b>/per child
-                                        </td>
-                                        <td><b><span class="package-currency-rupees">&#8377</span> 500</b>/per child
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-
-                            <!-- <span class="package-currency-rupees">&#8377</span> 899 <span
-                                    class="package-currency-day">/ Per Person (Friday/Weekend)</span>
-                                    <br>
-                                    <span class="package-currency-rupees">&#8377</span> 799 <span
-                                    class="package-currency-day">/ Per Person (Weekdays)</span> -->
-                            </p> <!-- table -->
-                            <p class="card-text">Monday weekly off*</p>
-                            <p class="card-text">Locker & Room Charges Extra*</p>
+                            <hr>
+                            <h4 class="package-currency"><span class="package-currency-rupees">&#8377</span> 900 <span
+                                    class="package-currency-day">/ Day</span></h4>
                             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
@@ -640,68 +532,21 @@ Author Email: tandelbhavesh07@gmail.com
                         <img class="card-img-top" src="images/waterpark/packages/package1.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Overnight Package</h4>
-                            <p class="card-text">This package is only 24 hours (Flexible time)</p>
+                            <p class="card-text">This package is only from Saturday 5:00pm to Sunday 5:00pm</p>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                    Breakfast
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                    Lunch(veg/non veg)
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fa fa-coffee" aria-hidden="true"></i>
-                                    Evening High Tea
-                                </li>
-                                <!-- <li class="list-group-item">
                                     <i class="fa fa-coffee" aria-hidden="true"></i>
                                     High Tea
-                                </li> -->
+                                </li>
                                 <li class="list-group-item">
                                     <i class="fa fa-cutlery" aria-hidden="true"></i>
                                     Dinner(veg/non veg)
                                 </li>
-                                <!-- <li class="list-group-item">
+                                <li class="list-group-item">
                                     <i class="fa fa-cutlery" aria-hidden="true"></i>
                                     Breakfast
-                                </li> -->
-                            </ul>
-                            <hr>
-                            <h4 class="package-currency">
-                                <span class="package-currency-rupees">&#8377</span> 2500 <span
-                                    class="package-currency-day">/ Per Adult</span>
-                            </h4>
-                            <h4 class="package-currency">
-                                <span class="package-currency-rupees">&#8377</span> 1250 <span
-                                    class="package-currency-day">/ Per Child</span>
-                            </h4>
-                            <p class="card-text">Monday weekly off*</p>
-                            <!-- <p class="card-text">Room Charges Extra*</p> -->
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-md-4 col-sm-6 tv-margin-bottom">
-                    <div class="mid-container">
-                        <img class="card-img-top" src="images/waterpark/packages/package1.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Half Day</h4>
-                            <p class="card-text">This package is availble between 2:30pm to 5:30pm</p>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">
-                                    <i class="fa fa-delicious" aria-hidden="true"></i>
-                                    Wave Pool
                                 </li>
                                 <li class="list-group-item">
-                                    <i class="fa fa-delicious" aria-hidden="true"></i>
-                                    Swimming Pool
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fa fa-delicious" aria-hidden="true"></i>
-                                    Slides
-                                </li>
-                                <!--    <li class="list-group-item">
                                     <i class="fa fa-coffee" aria-hidden="true"></i>
                                     Morning Tea
                                 </li>
@@ -712,15 +557,43 @@ Author Email: tandelbhavesh07@gmail.com
                                 <li class="list-group-item">
                                     <i class="fa fa-coffee" aria-hidden="true"></i>
                                     Evening Tea
-                                </li> -->
+                                </li>
                             </ul>
                             <hr>
-                            <h4 class="package-currency"><span class="package-currency-rupees">&#8377</span> 400 <span
-                                    class="package-currency-day">/ Per Adult</span></h4>
-                            <h4 class="package-currency"><span class="package-currency-rupees">&#8377</span> 300 <span
-                                    class="package-currency-day">/ Per Child</span></h4>
-                            <p class="card-text">Monday weekly off*</p>
-                            <!-- <p class="card-text">Swimming Pool, Wave Pool and Slides are inclusive*</p> -->
+                            <h4 class="package-currency"><span class="package-currency-rupees">&#8377</span> 1400 <span
+                                    class="package-currency-day">/ Day</span></h4>
+                            <p class="card-text">Room Charges Extra*</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 tv-margin-bottom">
+                    <div class="mid-container">
+                        <img class="card-img-top" src="images/waterpark/packages/package1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">COUPLE NON AC PACKAGE</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                    Breakfast
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                                    Morning Tea
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                    Lunch(veg/non veg)
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                                    Evening Tea
+                                </li>
+                            </ul>
+                            <hr>
+                            <h4 class="package-currency"><span class="package-currency-rupees">&#8377</span> 2400 <span
+                                    class="package-currency-day">/ Day</span></h4>
+                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                         <div class="mid-container"></div>
@@ -990,176 +863,154 @@ Author Email: tandelbhavesh07@gmail.com
     <!-- TESTIMONIALS -->
     <section class="testimonials tv-section-padding">
         <div class="container">
+
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-12">
                     <div class="tv-section-title text-center tv-margin-bottom">
-                        <h2>Happy Customers</h2>
+                        <h2>Testimonial</h2>
                         <img src="images/Icon1.png">
                     </div>
                 </div>
                 <div class="col-sm-12">
-                    <div class="owl-carousel owl-theme" id="happycustomerreview">
-                        <div class="owl-item">
-                            <div class="card d-flex flex-column">
-                                <div class="mt-2"> <span class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star-half-alt active-star"></span>
-                                </div>
-                                <!-- <div class="main font-weight-bold pb-2 pt-1">Great Service</div> -->
-                                <div class="testimonial">Celebrated 50th Birthday at Damodar water park, Superb
-                                    experience. We were 27 people stayed overnight. cleanliness, rooms, and FOOD were
-                                    excellent. The owner and staff treated us like a family. Most importantly, safety
-                                    and protection were ensured. Attractive slides, rain dance. THE BEST WAVE POOL I
-                                    have ever seen. Party arrangement, music, Karaoke, bon fire were wonderful. Personal
-                                    attention to given every details. Customer-friendly.......Loved the every moment
-                                    spend there.
-                                    <p>Visited on
-                                        <br><b>Weekend</b>
-                                    </p>
-                                </div>
-                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                        src="https://lh3.googleusercontent.com/a-/ALV-UjVJGvGI6RUHbcE6upjLKdiKrxzn07pHpttXC7_GebxSS6nygza_=w36-h36-p-rp-mo-br100"
-                                        alt="" class="rounded-circle">
-                                    <div class="d-flex flex-column pl-2">
-                                        <a href="https://maps.app.goo.gl/24MKNQTYBqJsD5cU8" target="_blank">
-                                            <div class="name">Siman Xavier</div>
-                                            <p class="text-muted designation">5 reviews - 24 photos</p>
-                                        </a>
-                                    </div>
-                                </div>
+                    <div id="customers-testimonials" class="owl-carousel">
+
+                        <!--TESTIMONIAL 1 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle"
+                                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                                    Completely synergize resource taxing relationships via premier niche markets.
+                                    Professionally cultivate.</p>
+                                <!-- <p class="testi-name">- Bhavesh Tandel
+                    <br>
+                    <span>Software Enginer</span>
+                </p> -->
+                            </div>
+                            <div class="testimonial-name">Bhavesh Tandel,
+                                <br>
+                                <span>Software Engineer</span>
                             </div>
                         </div>
-                        <div class="owl-item">
-                            <div class="card d-flex flex-column">
-                                <div class="mt-2"> <span class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star-half-alt active-star"></span>
-                                </div>
-                                <!-- <div class="main font-weight-bold pb-2 pt-1">Great Service</div> -->
-                                <div class="testimonial">Our Family enjoyed a lot, specially my son. Cleanliness was
-                                    great. Staff was Polite. Atmosphere was lively. DJ was good. Food was Delicious.
-                                    Will vist in Future too. Must vist Destination.
-                                    <p>Visited on <br><b>Weekend</b></p>
-                                    <p>Wait time <br><b>No wait</b></p>
-                                    <p>Reservation recommended <br><b>Yes</b></p>
-
-
-
-                                </div>
-                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                        src="https://lh3.googleusercontent.com/a/ACg8ocJ9TXVjlFrieDJsvNGxaT_Ag_it7kkhto2g7uIrKzKy3OdVqQ=w36-h36-p-rp-mo-br100"
-                                        alt="" class="rounded-circle">
-                                    <div class="d-flex flex-column pl-2">
-                                        <a href="https://maps.app.goo.gl/frbbn9hCTWXCTKSc7" target="_blank">
-                                            <div class="name">Kamal Bisht</div>
-                                            <p class="text-muted designation">2 reviews · 12 photos</p>
-                                        </a>
-                                    </div>
-                                </div>
+                        <!--END OF TESTIMONIAL 1 -->
+                        <!--TESTIMONIAL 2 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle"
+                                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                                    Completely synergize resource taxing relationships via premier niche markets.
+                                    Professionally cultivate.</p>
+                            </div>
+                            <div class="testimonial-name">Atul More,
+                                <br>
+                                <span>Support Manager</span>
                             </div>
                         </div>
-                        <div class="owl-item">
-                            <div class="card d-flex flex-column">
-                                <div class="mt-2"> <span class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star-half-alt active-star"></span>
-                                </div>
-                                <!-- <div class="main font-weight-bold pb-2 pt-1">Great Service</div> -->
-                                <div class="testimonial">We visited at Damodar water park with our family, it was an
-                                    amazing place to visit. Firstly, the location is convenient just 10-15 mins from
-                                    Kelva station and a good escape for Mumbaikar crowd on weekends. Water park is such,
-                                    that all age groups can enjoy. The crowd here was decent. Staff was so helpful 10/10
-                                    for them, near every slide there was a supportive staff which a great thing.
-                                    Exciting part is it has a wave pool which is fun. Cleanliness is up to the mark be
-                                    it a pantry area, changing room etc. Food was super delicious. Enjoyed a lot.
-                                    <br>A must must visit waterpark…
-                                    <!-- <p>Visited on <br><b>Weekend</b></p>
-                                    <p>Wait time <br><b>No wait</b></p>
-                                    <p>Reservation recommended <br><b>Yes</b></p> -->
-
-
-
-                                </div>
-                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                        src="https://lh3.googleusercontent.com/a-/ALV-UjUYT3QXyRxZK5pKhrH8hQ-7buJd7Ga5YUS-YJQHw-ZqhZcuyzrh=w36-h36-p-rp-mo-br100"
-                                        alt="" class="rounded-circle">
-                                    <div class="d-flex flex-column pl-2">
-                                        <a href="https://maps.app.goo.gl/hCYDFchztfUdFkq87" target="_blank">
-                                            <div class="name">PRIYA PANDIT</div>
-                                            <p class="text-muted designation">3 reviews</p>
-                                        </a>
-                                    </div>
-                                </div>
+                        <!--END OF TESTIMONIAL 2 -->
+                        <!--TESTIMONIAL 3 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle"
+                                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                                    Completely synergize resource taxing relationships via premier niche markets.
+                                    Professionally cultivate.</p>
+                            </div>
+                            <div class="testimonial-name">Atul More,
+                                <br>
+                                <span>Support Manager</span>
                             </div>
                         </div>
-                        <div class="owl-item">
-                            <div class="card d-flex flex-column">
-                                <div class="mt-2"> <span class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star-half-alt active-star"></span>
-                                </div>
-                                <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                                <div class="testimonial"> It is one of the best water park in Virar-Kelva region. The
-                                    staff is too helpful and very polite. Food is also good. Must visit the place. Their
-                                    wave pool is the main attraction to visit the place.
-                                    <br>
-                                    <p>Visited on <br><b>Weekend</b></p>
-                                    <p>Wait time <br><b>No wait</b></p>
-                                    <p>Reservation recommended <br><b>Yes</b></p>
-                                </div>
-                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                        src="https://lh3.googleusercontent.com/a-/ALV-UjWlHHyNH9r9dCQpHfdCHGlHvPPnh7WUWip9wUuiFjUclXQbBrBvgg=w36-h36-p-rp-mo-br100"
-                                        alt="" class="rounded-circle">
-                                    <div class="d-flex flex-column pl-2">
-                                        <a href="https://maps.app.goo.gl/z1PusDZFGhN55QvB8" target="_blank">
-                                            <div class="name">Chandan Dalvi</div>
-                                            <p class="text-muted designation">6 reviews · 4 photos</p>
-                                        </a>
-                                    </div>
-                                </div>
+                        <!--END OF TESTIMONIAL 3 -->
+                        <!--TESTIMONIAL 4 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle"
+                                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                                    Completely synergize resource taxing relationships via premier niche markets.
+                                    Professionally cultivate.</p>
+                            </div>
+                            <div class="testimonial-name">Atul More,
+                                <br>
+                                <span>Support Manager</span>
                             </div>
                         </div>
-                        <div class="owl-item">
-                            <div class="card d-flex flex-column">
-                                <div class="mt-2"> <span class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star active-star"></span> <span
-                                        class="fa fa-star-half-alt active-star"></span>
-                                </div>
-                                <!-- <div class="main font-weight-bold pb-2 pt-1">Great Service</div> -->
-                                <div class="testimonial">Very nice place for one day picnic....
-                                    <br>good hospitality...
-                                    <br>helping staff....
-                                    <br>good quality of food....
-                                    <br>slides and wave pool is awesome.....enjoy alot
-                                </div>
-                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                        src="https://lh3.googleusercontent.com/a-/ALV-UjVe1vSd4fJ6R3CB2VjL5HzT7uGa83lmzIY0p3QwcKP2Eh6beo0=w36-h36-p-rp-mo-br100"
-                                        alt="" class="rounded-circle">
-                                    <div class="d-flex flex-column pl-2">
-                                        <a href="https://maps.app.goo.gl/ELLAgqcrR9kdr3it7" target="_blank">
-                                            <div class="name">Krunal J Pimple</div>
-                                            <p class="text-muted designation">3 reviews · 37 photos</p>
-                                        </a>
-                                    </div>
-                                </div>
+                        <!--END OF TESTIMONIAL 4 -->
+                        <!--TESTIMONIAL 5 -->
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle"
+                                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                                    Completely synergize resource taxing relationships via premier niche markets.
+                                    Professionally cultivate.</p>
+                            </div>
+                            <div class="testimonial-name">Atul More,
+                                <br>
+                                <span>Support Manager</span>
                             </div>
                         </div>
+                        <!--END OF TESTIMONIAL 5 -->
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- END OF TESTIMONIALS -->
     <!--End Latest Section-->
+
+    <!--second Image Gallery-->
+    <section class="" hidden>
+        <div class="container">
+            <div class="row text-center">
+                <div class="padding-0 col-md-6 col-sm-12">
+                    <div class="padding-0 col-md-12 col-sm-12">
+                        <div class="tv-instagallery-content">
+                            <h2>Holivilla</h2>
+                            <h4>Instagram post</h4>
+                            <p>Cras tempor leo in arcu congue placerat. Phasellus dolor purus, iaculis eu hendrerit
+                                quis, dapibus ac purus. Etiam sed euismod dui, eu ornare purus.</p>
+                        </div>
+                    </div>
+                    <div class="padding-0 col-md-6 col-sm-12">
+                        <div class="tv-instagallery-image">
+                            <!-- data-image-popup="" -->
+                            <a  href="images/Image30.jpeg">
+                                <img src="images/Image30.jpeg" class="img-responsive tv-insta-height">
+                                <div class="overlay">
+                                    <div class="text"><img src="images/icon(1).png"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="padding-0 col-md-6 col-sm-12">
+                        <div class="tv-instagallery-image">
+                            <!-- data-image-popup="" -->
+                            <a  href="images/Image29.png">
+                                <img src="images/Image29.png" class="img-responsive tv-insta-height">
+                                <div class="overlay">
+                                    <div class="text"><img src="images/icon(1).png"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="padding-0 col-md-6 col-sm-12">
+                    <div class="tv-instagallery-image">
+                        <a href="images/Image 21.png">
+                            <img src="images/Image 21.png" class="img-responsive">
+                            <div class="overlay">
+                                <div class="text"><img src="images/icon(1).png"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Second Image Gallery-->
 
     <section class="tv-section-padding section-bg-lg-gray-color" id="contact">
         <div class="container">
@@ -1211,12 +1062,11 @@ Author Email: tandelbhavesh07@gmail.com
                 <div class="container">
                     <div class="row text-center">
                         <div class="tv-footer-content tv-footer-padding">
-                            <div class="tv-info-menu">
-                                <div class="col-12">
-                                    <div class="col-md-6 col-sm-6 col-xs-12 tv-margin-bottom">
-                                        <img width="100px" src="images/waterpark/logo_name.png">
-                                        <h3 class="tv-info-title">Damodar Water Park</h3>
-                                        <!-- <ul class="tv-contact-content list-group">
+                            <div class=" col-md-12 col-sm-12 tv-margin-bottom">
+                                <div class="col-md-6 col-sm-6 tv-margin-bottom">
+                                    <img width="100px" src="images/waterpark/logo_name.png">
+                                    <h3 class="tv-info-title">Damodar Water Park</h3>
+                                    <!-- <ul class="tv-contact-content list-group">
                                             <li class="list-group-item">
                                                 <i class="fa fa-location-arrow"></i>
                                                 <span>At post kelwa bazar,<br>
@@ -1225,58 +1075,36 @@ Author Email: tandelbhavesh07@gmail.com
                                                     Maharashtra - 401401</span>
                                             </li>
                                         </ul> -->
-                                        <ul class='icon-list'>
-                                            <li class='location'>At post kelwa bazar,
-                                                Near custom office,
-                                                Taluka & district Palghar,
-                                                Maharashtra - 401401</li>
-                                            <li class='phone'><a href="tel:+919975237397">+91 99752 37397</a></li>
-                                            <li class='phone'><a href="tel:+919820163703">+91 98201 63703</a></li>
-                                            <li class='email'><a
-                                                    href="mailto:damodar.waterpark@gmail.com">damodar.waterpark@gmail.com</a>
-                                            </li>
-                                            <li class='facebook'><a
-                                                    href="https://www.facebook.com/damodartandelwaterpark"
-                                                    target="_blank">facebook.com/damodartandelwaterpark</a></li>
-                                            <li class='instagram'><a
-                                                    href="https://www.instagram.com/damodartandelwaterpark/"
-                                                    target="_blank">instagram.com/damodartandelwaterpark</a></li>
-                                        </ul>
-                                        <!-- <div class="tv-contact-content">
-                                            <img src="images/location.png">
-                                            <span>At post kelwa bazar,<br>
-                                            Near custom office,<br>
-                                            Taluka & district Palghar,<br>
-                                            Maharashtra - 401401</span>
-                                        </div>
-                                        <div class="tv-contact-content">
-                                            <img src="images/phone.png">
-                                            <span><a href="tel:+919867875888">+91 98678 75888</a></span>
-                                        </div>
-                                        <div class="tv-contact-content">
-                                            <img src="images/phone.png">
-                                            <span><a href="tel:+919820163703">+91 98201 63703</a></span>
-                                        </div>
-                                        <div class="tv-contact-content">
-                                            <img src="images/email.png">
-                                            <span><a href="mailto:damodar.waterpark@gmail.com">damodar.waterpark@gmail.com</a></span>
-                                        </div> -->
-                                        <div class="social-navbar" hidden>
-                                            <a href="https://www.facebook.com/damodartandelwaterpark"><span
-                                                    class="fa fa-facebook-f fb"></span></a>
-                                            <a href="https://www.instagram.com/damodartandelwaterpark/"><span
-                                                    class="fa fa-instagram twitter"></span></a>
-                                            <!-- <a href="#"><span class="fa fa-google-plus google"></span></a>
-                                            <a href="#"><span class="fa fa-linkedin link"></span></a>
-                                            <a href="#"><span class="fa fa-pinterest pin"></span></a> -->
-                                        </div>
+                                    <ul class='icon-list'>
+                                        <li class='location'>At post kelwa bazar,
+                                            Near custom office,
+                                            Taluka & district Palghar,
+                                            Maharashtra - 401401</li>
+                                        <li class='phone'><a href="tel:+919867875888">+91 98678 75888</a></li>
+                                        <li class='phone'><a href="tel:+919820163703">+91 98201 63703</a></li>
+                                        <li class='email'><a
+                                                href="mailto:damodar.waterpark@gmail.com">damodar.waterpark@gmail.com</a>
+                                        </li>
+                                        <li class='facebook'><a href="https://www.facebook.com/share/1LwXyZmW1JwC37Uc/?mibextid=LQQJ4d"
+                                                target="_blank">facebook.com/damodartandelwaterpark</a></li>
+                                                <!-- <li class='facebook'><a href="fb://user?username=damodartandelwaterpark"
+                                                    target="_blank">facebook.com/damodartandelwaterpark</a></li> -->
+                                        <li class='instagram'><a
+                                                href="https://www.instagram.com/damodartandelwaterpark?igsh=ZHlwM210aWFhem1j"
+                                                target="_blank">instagram.com/damodartandelwaterpark</a></li>
+                                    </ul>
+                                    <div class="social-navbar" hidden>
+                                        <a href="https://www.facebook.com/damodartandelwaterpark"><span
+                                                class="fa fa-facebook-f fb"></span></a>
+                                        <a href="https://www.instagram.com/damodartandelwaterpark/"><span
+                                                class="fa fa-instagram twitter"></span></a>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12 tv-margin-bottom">
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.5970192464774!2d72.73228001000392!3d19.601757881637774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be703004e13c6f3%3A0xdb4f1641521a0abc!2sDamodar%20Water%20Park!5e0!3m2!1sen!2sin!4v1717577776001!5m2!1sen!2sin"
-                                            width="100%" height="320px" style="border:0;" allowfullscreen=""
-                                            loading="lazy"></iframe>
-                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 tv-margin-bottom">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.5970192464774!2d72.73228001000392!3d19.601757881637774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be703004e13c6f3%3A0xdb4f1641521a0abc!2sDamodar%20Water%20Park!5e0!3m2!1sen!2sin!4v1717577776001!5m2!1sen!2sin"
+                                        width="100%" height="320px" style="border:0;" allowfullscreen=""
+                                        loading="lazy"></iframe>
                                 </div>
                             </div>
                             <div class="col-md-12 col-sm-12">
@@ -1321,6 +1149,15 @@ Author Email: tandelbhavesh07@gmail.com
                 gallery: {
                     enabled: true
                 }
+            });
+            var $youtubePopup = $('.popup-youtube, .popup-vimeo, .popup-gmaps');
+            $youtubePopup.magnificPopup({
+                // disableOn: 200,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: true,
+                fixedContentPos: false
             });
         });
     </script>
