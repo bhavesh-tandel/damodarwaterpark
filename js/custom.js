@@ -48,6 +48,7 @@ $(window).load(function () {
         dots: false,
         autoplayTimeout: 5000,
         smartSpeed: 450,
+        responsiveClass: true,
         loop: true,
         navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", 
         "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
@@ -55,9 +56,11 @@ $(window).load(function () {
             0: {
                 items: 1,
             },
-            575: { items: 1 },
-            768: { items: 1 },
-            991: { items: 2 },
+            300: { items: 1 },
+            360: { items: 1.2 },
+            575: { items: 2 },
+            768: { items: 2 },
+            991: { items: 3 },
             1200: { items: 3 }
         }
     });

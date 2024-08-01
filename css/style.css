@@ -2231,7 +2231,7 @@ display: inline-block;
       background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
     }
   
-    .video_header video {
+    /* .video_header video {
       display: none;
-    }
+    } */
   }
