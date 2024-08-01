@@ -1,8 +1,9 @@
-//Template:Holivilla
-//FileName:custom.js
-//Author Name: Themevault
-//Author URI:http://www.themevault.net/
-//License URI: http://www.themevault.net/license/
+/*
+Template:Damodar Water Park
+FileName:custom.js
+Author Name: Bhavesh Tandel
+Author Email: tandelbhavesh07@gmail.com
+*/
 
 //Video Popup JS
 $(document).ready(function () {
@@ -20,8 +21,8 @@ $(window).load(function () {
         loop: true,
         center: true,
         items: 5,
-        margin: 0,
-        autoplay: true,
+        margin: 10,
+        autoplay: false,
         dots:true,
         autoplayTimeout: 5000,
         smartSpeed: 450,
@@ -37,7 +38,29 @@ $(window).load(function () {
         }
         }
     });
-    
+    var silder = $("#happycustomerreview");
+    silder.owlCarousel({
+        autoPlay: true,
+        items: 1,
+        center: false,
+        nav: true,
+        margin: 40,
+        dots: false,
+        autoplayTimeout: 5000,
+        smartSpeed: 450,
+        loop: true,
+        navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>", 
+        "<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            575: { items: 1 },
+            768: { items: 1 },
+            991: { items: 2 },
+            1200: { items: 3 }
+        }
+    });
 });
 
 $(document).ready(function () {

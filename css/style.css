@@ -1,11 +1,9 @@
 /*
-Template:holivilla
-FileName:style.css
-Author Name: Themevault
-Author URI:http://www.themevault.net/
-License URI: http://www.themevault.net/license/
+Template:Damodar Water Park
+FileName:sytle.css
+Author Name: Bhavesh Tandel
+Author Email: tandelbhavesh07@gmail.com
 */
-
 /* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -394,7 +392,7 @@ a:focus {
 }
 .block-margin {
     margin-left: -10%;
-    margin-top: 7.5%;
+    margin-top: 6.5%;
 }
 /*End Welcome Section*/
 
@@ -2082,7 +2080,7 @@ border:1px solid #ECECEC;
     font-weight: 300;
 }
 .testimonial-name {
-    margin: -30px auto 0;
+    margin: -10px auto  10px;
     display: table;
     width: auto;
     background: #18285c !important;
@@ -2104,6 +2102,9 @@ border:1px solid #ECECEC;
     /* margin-top: 10px; */
     font-weight: 400;
 }
+.testimonial-name a{
+    color: #fdd800;
+}
 #customers-testimonials .item {
     text-align: center;
     padding: 50px;
@@ -2120,11 +2121,11 @@ border:1px solid #ECECEC;
     -webkit-transform: scale3d(1.0, 1.0, 1);
     transform: scale3d(1.0, 1.0, 1);
 }
-.owl-carousel .owl-item img {
+/* .owl-carousel .owl-item img {
     transform-style: preserve-3d;
     max-width: 90px;
     margin: 0 auto 17px;
-}
+} */
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
     background: #fdd800;
@@ -2176,3 +2177,61 @@ display: inline-block;
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
 	opacity: 0;
 }
+
+.video_header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video_header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .video_header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .video_header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+  }
+
+  .video_header .container > .vide-hader-title {
+    margin: 18rem auto;
+  }
+  
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) and (hover: none) {
+    .video_header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+  
+    .video_header video {
+      display: none;
+    }
+  }

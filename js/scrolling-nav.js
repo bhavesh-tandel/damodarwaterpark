@@ -1,8 +1,9 @@
-//Template:Holivilla
-//FileName:crolling-nav.js
-//Author Name: Themevault
-//Author URI:http://www.themevault.net/
-//License URI: http://www.themevault.net/license/
+/*
+Template:Damodar Water Park
+FileName:scolling-nav.js
+Author Name: Bhavesh Tandel
+Author Email: tandelbhavesh07@gmail.com
+*/
 
 // scroll
 $(window).scroll(function() {
