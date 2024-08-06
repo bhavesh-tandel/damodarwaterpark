@@ -79,6 +79,12 @@ $(document).ready(function () {
         return false;
     });
     setTimeout(playYoututbeVideo, 1000);
+
+    try {
+        document.getElementById('bannervideo').play();   
+    } catch (error) {
+        console.log("Video ", error.message);
+    }
 });
 
 function autoPlayYouTubeModal() {
