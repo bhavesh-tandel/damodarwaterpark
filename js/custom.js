@@ -115,17 +115,17 @@ function playYoututbeVideo(){
     // });
 }
 
-document.addEventListener('DOMContentLoaded', () => { 
-    const options = {
-        fullscreen: {
-          enabled: true,
-          iosNative: false
-        },
-        controls: [
+// document.addEventListener('DOMContentLoaded', () => { 
+//     const options = {
+//         fullscreen: {
+//           enabled: true,
+//           iosNative: false
+//         },
+//         controls: [
           
-        ],
-        muted: true,
-        storage: { enabled: false }
-      };
-      const player = new Plyr(document.querySelector("#bannervideo"), options);      
-  });
+//         ],
+//         muted: true,
+//         storage: { enabled: false }
+//       };
+//       const player = new Plyr(document.querySelector("#bannervideo"), options);      
+//   });
